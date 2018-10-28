@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from mymodel import reader
+from mymodel import reader         #自己从github上下载封装好的reader,建立了mymodel文件，从mymodel中调用reader
 
 DATA_PATH='D:/machine learning/tensorflow/PTB-examples/data'
 VOCAB_SIZE=10000   #词典规模
